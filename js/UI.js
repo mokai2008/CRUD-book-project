@@ -9,7 +9,7 @@ class UI {
     <td>${book.title}</td>
     <td>${book.author}</td>
     <td>${book.isbn}</td>
-    <td><a class="delete" style="color:#f00; cursor:pointer">X</a></td>
+    <td><a class="delete btn btn-danger" style="color: #fff; cursor:pointer" cursor:pointer">Delete</a></td>
   `;
 
   list.appendChild(row);
