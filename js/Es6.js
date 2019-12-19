@@ -1,10 +1,4 @@
-class Book {
-  constructor(title, author, isbn) {
-    this.title = title;
-    this.author = author;
-    this.isbn = isbn;
-  }
-}
+import {Book} from '../js/Book.js';
 
 class UI {
   addBookToList(book) {
