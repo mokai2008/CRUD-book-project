@@ -1,4 +1,4 @@
-import {Book} from '../js/Book.js';
+import {Book} from './Book.js';
 
 class UI {
   addBookToList(book) {
