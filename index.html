@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Book OOP Project</title>
+</head>
+<body>
+  <h1 class="mb-4 mt-2 text-center">Add a book</h1>
+  <div class="container">
+    <form id="book-form">
+      <div class="form-group">
+        <label for="book-title"> Title</label>
+        <input type="text" class="form-control" id="book-title" placeholder="Enter Book Title">
+      </div>
+      <div class="form-group">
+        <label for="book-author"> Author</label>
+        <input type="text" class="form-control" id="book-author" placeholder="Enter Book Author">
+      </div>
+      <div class="form-group">
+        <label for="book-isbn"> ISBN</label>
+        <input type="text" class="form-control" id="book-isbn" placeholder="Enter Book ISBN">
+      </div>
+      <button type="submit" class="btn btn-primary">Add Book</button>
+    </form>
+    <table class="table mt-5">
+      <thead>
+        <tr>
+          <th scope="col">Title</th>
+          <th scope="col">Author</th>
+          <th scope="col">ISBN</th>
+          <th scope="col">Delete</th>
+        </tr>
+      </thead>
+      <tbody id="book-list">
+
+      </tbody>
+    </table>
+    </div>
+
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/Es6.js"></script>
+</body>
+</html>
