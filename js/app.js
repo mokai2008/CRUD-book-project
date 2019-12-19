@@ -4,7 +4,16 @@ import {Store} from './Store.js';
 
 // Even Handlers
 
+
+// clearing the loading screen
+$(function () {
+  $('#loading').fadeOut(1000, function() {
+    $(this).remove();
+  })
+})
+
 document.addEventListener('DOMContentLoaded', Store.displayData());
+
 
 document.getElementById('book-form').addEventListener('submit', function(e) {
   const title = document.getElementById('book-title').value,
